@@ -40,7 +40,7 @@ const PointItemsContainer = () => {
                     )
                 )}
 
-                {(itemsError || pointsMapError) && (<p>Ooops there was an error plz refresh the page.</p>)}
+                {(itemsError || pointsMapError) && (<p>Ooops there was an error please refresh the page.</p>)}
             </div>
         </div>
     );
