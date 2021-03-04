@@ -1,0 +1,22 @@
+.scoreCard {
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  height: 40px;
+
+  &__value {
+    width: 40px;
+    height: 30px;
+    text-align: center;
+    background: #3f51b5;
+    color: white;
+    line-height: 30px;
+  }
+
+  &__qty {
+    margin-right: 30px;
+  }
+
+}

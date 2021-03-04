@@ -1,0 +1,30 @@
+.pointItemsContainer {
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+  height: calc(50vh - 2px);
+  width: 45vw;
+  display: flex;
+  flex-direction: column;
+
+  &__header {
+    padding: 15px;
+    border-bottom: 1px solid black;
+    font-weight: bold;
+  }
+
+  &__title {
+    color: black;
+    margin: 5px;
+  }
+
+  &__items {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: auto;
+
+    button {
+      margin: 10px;
+    }
+  }
+}

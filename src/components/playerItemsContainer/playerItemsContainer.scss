@@ -1,0 +1,59 @@
+.playerItemsContainer {
+  height: 50vh;
+  width: 45vw;
+  display: flex;
+  flex-direction: column;
+
+  &__header {
+    padding: 15px;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    font-weight: bold;
+  }
+
+  &__countHeader {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 15px;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+  }
+
+  &__scoreCards {
+    border: 1px solid black;
+    flex: 1;
+    overflow: auto;
+  }
+
+  &__bonuses {
+    text-align: start;
+    padding: 15px;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+  }
+
+  &__bonus {
+    font-weight: bold;
+  }
+
+  &__footer {
+    border: 1px solid black;
+    display: flex;
+  }
+
+  &__total {
+    flex: 1 1 auto;
+    padding: 15px;
+  }
+
+  &__totalValue {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  &__reset {
+    padding: 15px;
+  }
+}
