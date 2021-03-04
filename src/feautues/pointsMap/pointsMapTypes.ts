@@ -2,7 +2,7 @@ export interface PointsData {
     name: string;
     value: string;
     noOfBonus: string;
-    bonus: string
+    bonus: string;
 }
 
 export interface PointsMapTypes {
